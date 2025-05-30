@@ -1,0 +1,41 @@
+/* CSS Variables for Color Scheme */
+:root
+{
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+}
+table,th,td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: left;
+    border-radius: 5px;
+}
+th,td{
+    background-color:#dde2e7;
+    color:green;
+   
+}
+nav{
+    background-color: var(--primary-color);
+    color: rgb(36, 201, 124);
+    padding: 10px;
+    text-align: right;
+}
+head{
+    color: var(--primary-color);
+    text-align: center;
+}
+.topic{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+}
