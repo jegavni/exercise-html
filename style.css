@@ -1,41 +1,82 @@
-/* CSS Variables for Color Scheme */
-:root
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+}
+
+* {
+    margin: 0 ;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+
+}
+.cont-one{
+   width: 100%;
+   height: 400px;
+   background-color: rgb(219, 240, 187);
+}
+a{
+
+    text-decoration: none;
+    color:black;
+   font-weight: lighter;
+   font-size: small;
+
+}
+a:hover{
+    color: rgb(211, 102, 102);
+}
+body{
+    background-color: var(--background-color);
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: rgb(200, 238, 200);
+
+}
+.nav-links{ 
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+h5{
+    font-size: 15px;
+    font-weight: bold;
+    
+    letter-spacing: 1px;
+}
+.nav-links li{
+    display: inline block;
+    padding: 0px 10px;
+}
+.btn
 {
-    --primary-color: #007bff;
-    --secondary-color: #6c757d;
-    --success-color: #28a745;
-    --danger-color: #dc3545;
-    --warning-color: #ffc107;
-    --info-color: #17a2b8;
-    --light-color: #f8f9fa;
-    --dark-color: #343a40;
+    border-radius: 50;
+   background-color: greenyellow;
+   padding: 2px 5px;
+
 }
-table,th,td
-{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 8px;
-    text-align: left;
-    border-radius: 5px;
+.c{
+    color: rgb(112, 155, 48);
 }
-th,td{
-    background-color:#dde2e7;
-    color:green;
-   
+.cont-2{
+    width :300px;
+    height: 400px;
+    padding-left: 20px;
+    padding-top: 100px;
 }
-nav{
-    background-color: var(--primary-color);
-    color: rgb(36, 201, 124);
-    padding: 10px;
-    text-align: right;
-}
-head{
-    color: var(--primary-color);
-    text-align: center;
-}
-.topic{
-    background-color: var(--secondary-color);
-    color: white;
-    padding: 10px;
-    margin: 10px 0;
+.cont-2 a{
+
+    font-weight: bold;
+    color: yellowgreen;
+    font-size: 15px ;
+    text-decoration: none;
+    padding-left: 10px;
+    justify-content: space-around;
 }
